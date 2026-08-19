@@ -1,24 +1,28 @@
 class A extends Thread {
+    @Override
     public void run() {
         for (int i = 1; i <= 10; i++) {
             System.out.println("Running");
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                System.err.println("Thread A interrupted: " + e.getMessage());
+                Thread.currentThread().interrupt();
             }
         }
     }
 }
 
 class B extends Thread {
-    public void run() { // Override run() instead of jog()
+    @Override
+    public void run() {
         for (int i = 1; i <= 10; i++) {
             System.out.println("Jogging");
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                System.err.println("Thread B interrupted: " + e.getMessage());
+                Thread.currentThread().interrupt();
             }
         }
     }
