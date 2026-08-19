@@ -1,0 +1,17 @@
+﻿*.class
+*.iml
+
+# IntelliJ IDEA
+.idea/
+
+# VS Code
+.vscode/
+
+# Build output
+out/
+target/
+
+# Environment files
+.env
+.env.*
+!.env.example
