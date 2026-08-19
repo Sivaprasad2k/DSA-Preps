@@ -1,15 +1,25 @@
-﻿*.class
-*.iml
-
-# IntelliJ IDEA
-.idea/
-
-# VS Code
-.vscode/
-
-# Build output
+# Byte-code / Compiled outputs
+*.class
 out/
 target/
+bin/
+build/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# OS / Temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
 
 # Environment files
 .env

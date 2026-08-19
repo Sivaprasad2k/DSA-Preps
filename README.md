@@ -56,22 +56,25 @@ The structure intentionally follows my learning progression instead of forcing a
 ```text
 Java-Springboot/
 │
-├── Java/
-│   ├── Basics/
-│   ├── OOP/
-│   ├── Collections/
-│   ├── Exceptions/
-│   ├── Multithreading/
-│   └── ...
+├── 01-Core-Java/
+│   ├── 01-Basics/
+│   ├── 02-OOP/
+│   ├── 03-Arrays/
+│   ├── 04-Exceptions/
+│   ├── 05-Data-Structures/
+│   ├── 06-Lambda-Expressions/
+│   └── 07-Threads/
 │
-├── Spring/
-│   ├── Spring-Core/
-│   ├── Spring-Boot/
-│   ├── REST-APIs/
-│   ├── JPA/
-│   └── ...
+├── 02-Advanced-Java/
 │
-└── README.md
+├── 03-Spring/
+│
+├── 04-Spring-Boot/
+│
+├── 05-Projects/
+│
+├── README.md
+└── .gitignore
 ```
 
 The directory structure may change as the learning journey progresses.
